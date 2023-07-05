@@ -63,11 +63,12 @@ button:focus-visible {
 }
 
 #app {
-  max-width: 1280px;
+  /* max-width: 1280px; */
   margin: 0 auto;
   padding: 0 auto;
   background-color: #FFFFFF;
   min-height: 100vh;
+  box-sizing: border-box;
 }
 
 @media (prefers-color-scheme: light) {
